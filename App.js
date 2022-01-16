@@ -5,12 +5,13 @@ import Home from "./Home";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
+
   return (
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerTintColor: "white",
-          headerStyle: { backgroundColor: "#DC282F" },
+          headerStyle: { backgroundColor: "black" },
+          headerTitleStyle: { color: "white" },
         }}
       >
         <Stack.Screen
