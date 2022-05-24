@@ -2,9 +2,12 @@ import { useState } from "react";
 import { WebView } from "react-native-webview";
 import { ProgressBar } from "react-native-paper";
 import { StatusBar } from "expo-status-bar";
+import { Notification } from "./Notifications";
 
 export default function Home() {
   const [load, setload] = useState(false);
+
+  Notification()
 
   return (
     <>
