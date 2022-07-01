@@ -18,7 +18,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0",
+      "bundleIdentifier": "com.UD.UD-News"
     },
     "android": {
       "adaptiveIcon": {
